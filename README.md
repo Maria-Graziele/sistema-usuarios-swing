@@ -31,8 +31,3 @@ src/
 - MySQL Server
 - IDE recomendada: NetBeans ou IntelliJ IDEA
 
-## Configuração do Banco de Dados
-
-1. Crie um banco de dados no MySQL:
-```sql
-CREATE DATABASE sistema_usuarios;
