@@ -1,10 +1,10 @@
 # Sistema de Usuários - Java Swing e MySQL
 
-Projeto acadêmico desenvolvido em Java, com interface gráfica usando *Java Swing* e persistência de dados no *MySQL*. Permite cadastro, consulta, atualização e exclusão de usuários.
+Projeto acadêmico desenvolvido em Java, com interface gráfica usando *Java Swing* e banco de dados no *MySQL*. Permite cadastro, consulta, atualização e exclusão de usuários.
 
 ## Funcionalidades
 
-- Cadastro de usuários (nome, e-mail, senha)
+- Cadastro de usuários (nome, e-mail, idade)
 - Consulta de usuários cadastrados
 - Atualização de dados do usuário
 - Exclusão de usuários
