@@ -31,3 +31,25 @@ src/
 - MySQL Server
 - IDE recomendada: NetBeans ou IntelliJ IDEA
 
+## Configuração do Banco de Dados
+
+1.Crie o banco de dados no MySQL:
+
+CREATE DATABASE sistema_usuarios;
+
+2.Crie a tabela de usuários:
+
+CREATE TABLE usuarios (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(100) NOT NULL,
+    email VARCHAR(100) NOT NULL,
+    senha VARCHAR(50) NOT NULL
+);
+
+## Como Rodar o Projeto
+
+- Clone o repositório
+- Abra o projeto na IDE NetBeans ou IntelliJ IDEA.
+- Execute a classe principal (SistemaUsuariosSwingSimples.java).
+- A interface gráfica será exibida, permitindo usar o sistema normalmente.
+
